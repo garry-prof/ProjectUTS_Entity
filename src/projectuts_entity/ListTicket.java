@@ -26,21 +26,129 @@ public class ListTicket extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jButtonLogin = new javax.swing.JButton();
+        jLabelLogin1 = new javax.swing.JLabel();
+        jTextFieldPass4 = new javax.swing.JTextField();
+        jTextFieldPass5 = new javax.swing.JTextField();
+        jLabelLogin5 = new javax.swing.JLabel();
+        jLabelLogin6 = new javax.swing.JLabel();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        jLabelLogin7 = new javax.swing.JLabel();
+        jLabelLogin8 = new javax.swing.JLabel();
+        jTextFieldPass6 = new javax.swing.JTextField();
+        jLabelLogin9 = new javax.swing.JLabel();
+        jTextFieldPass7 = new javax.swing.JTextField();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jButtonLogin.setText("Next");
+        jButtonLogin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonLoginActionPerformed(evt);
+            }
+        });
+
+        jLabelLogin1.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelLogin1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabelLogin1.setText("LIST TICKET");
+        jLabelLogin1.setToolTipText("");
+
+        jLabelLogin5.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelLogin5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelLogin5.setText("Tanggal:");
+        jLabelLogin5.setToolTipText("");
+
+        jLabelLogin6.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelLogin6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelLogin6.setText("Jenis Kursi:");
+        jLabelLogin6.setToolTipText("");
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jLabelLogin7.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelLogin7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelLogin7.setText("Pilih Konser:");
+        jLabelLogin7.setToolTipText("");
+
+        jLabelLogin8.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelLogin8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelLogin8.setText("Harga:");
+        jLabelLogin8.setToolTipText("");
+
+        jLabelLogin9.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelLogin9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelLogin9.setText("Jumlah:");
+        jLabelLogin9.setToolTipText("");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGap(0, 130, Short.MAX_VALUE)
+                        .addComponent(jLabelLogin1)
+                        .addGap(135, 135, 135))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabelLogin5)
+                            .addComponent(jLabelLogin7)
+                            .addComponent(jLabelLogin6)
+                            .addComponent(jLabelLogin8)
+                            .addComponent(jLabelLogin9))
+                        .addGap(30, 30, 30)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(jTextFieldPass4, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jComboBox2, javax.swing.GroupLayout.Alignment.LEADING, 0, 127, Short.MAX_VALUE))
+                            .addComponent(jTextFieldPass7, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(jTextFieldPass5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 94, Short.MAX_VALUE)
+                                .addComponent(jTextFieldPass6, javax.swing.GroupLayout.Alignment.LEADING)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButtonLogin)
+                .addGap(18, 18, 18))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabelLogin1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabelLogin7, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabelLogin5, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldPass4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabelLogin6, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldPass5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabelLogin8, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldPass6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabelLogin9, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldPass7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jButtonLogin)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButtonLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLoginActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonLoginActionPerformed
 
     /**
      * @param args the command line arguments
@@ -79,5 +187,17 @@ public class ListTicket extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButtonLogin;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JLabel jLabelLogin1;
+    private javax.swing.JLabel jLabelLogin5;
+    private javax.swing.JLabel jLabelLogin6;
+    private javax.swing.JLabel jLabelLogin7;
+    private javax.swing.JLabel jLabelLogin8;
+    private javax.swing.JLabel jLabelLogin9;
+    private javax.swing.JTextField jTextFieldPass4;
+    private javax.swing.JTextField jTextFieldPass5;
+    private javax.swing.JTextField jTextFieldPass6;
+    private javax.swing.JTextField jTextFieldPass7;
     // End of variables declaration//GEN-END:variables
 }
