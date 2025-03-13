@@ -8,12 +8,12 @@ package projectuts_entity;
  *
  * @author GARRY
  */
-public class UI extends javax.swing.JPanel {
+public class Register extends javax.swing.JPanel {
 
     /**
      * Creates new form UI
      */
-    public UI() {
+    public Register() {
         initComponents();
     }
 
