@@ -26,16 +26,16 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="jLabelLogin2" min="-2" pref="60" max="-2" attributes="0"/>
-                  <Component id="jLabelLogin3" min="-2" pref="60" max="-2" attributes="0"/>
+                  <Component id="jLabelPassword" min="-2" pref="60" max="-2" attributes="0"/>
+                  <Component id="jLabelUsername" min="-2" pref="60" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabelWelcome" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabelLogin" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabelLogin1" min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="jTextFieldUsername" max="32767" attributes="0"/>
-                      <Component id="jTextFieldPass" min="-2" pref="176" max="-2" attributes="0"/>
+                      <Component id="jTextFieldPassword" max="32767" attributes="0"/>
+                      <Component id="jTextFieldUsername" min="-2" pref="176" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="82" max="32767" attributes="0"/>
@@ -51,28 +51,28 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-              <Component id="jLabelLogin1" min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="jLabelLogin" min="-2" pref="28" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTextFieldPass" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabelLogin3" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="jTextFieldUsername" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelUsername" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTextFieldUsername" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabelLogin2" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="jTextFieldPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelPassword" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="39" max="32767" attributes="0"/>
               <Component id="jButtonLogin" min="-2" pref="21" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jLabelLogin" min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="jLabelWelcome" min="-2" pref="28" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabelLogin">
+    <Component class="javax.swing.JLabel" name="jLabelWelcome">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="ff" type="rgb"/>
@@ -84,9 +84,9 @@
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextFieldUsername">
+    <Component class="javax.swing.JTextField" name="jTextFieldPassword">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextFieldPass">
+    <Component class="javax.swing.JTextField" name="jTextFieldUsername">
     </Component>
     <Component class="javax.swing.JButton" name="jButtonLogin">
       <Properties>
@@ -96,7 +96,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonLoginActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabelLogin1">
+    <Component class="javax.swing.JLabel" name="jLabelLogin">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="ff" type="rgb"/>
@@ -108,7 +108,7 @@
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabelLogin2">
+    <Component class="javax.swing.JLabel" name="jLabelPassword">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="ff" type="rgb"/>
@@ -120,7 +120,7 @@
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabelLogin3">
+    <Component class="javax.swing.JLabel" name="jLabelUsername">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="ff" type="rgb"/>

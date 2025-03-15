@@ -26,73 +26,91 @@ public class Checkout extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButtonLogin = new javax.swing.JButton();
-        jLabelLogin1 = new javax.swing.JLabel();
-        jLabelLogin2 = new javax.swing.JLabel();
-        jLabelLogin3 = new javax.swing.JLabel();
-        jLabelLogin4 = new javax.swing.JLabel();
-        jTextFieldPass1 = new javax.swing.JTextField();
-        jTextFieldPass2 = new javax.swing.JTextField();
-        jTextFieldPass3 = new javax.swing.JTextField();
-        jLabelLogin9 = new javax.swing.JLabel();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
+        jLabelTotal = new javax.swing.JLabel();
+        jLabelTotalTiket = new javax.swing.JLabel();
+        jButtonSubmit = new javax.swing.JButton();
+        jLabelFormCheckout = new javax.swing.JLabel();
+        jLabelEmail = new javax.swing.JLabel();
+        jLabelNomor = new javax.swing.JLabel();
+        jLabelNama = new javax.swing.JLabel();
+        jTextFieldNama = new javax.swing.JTextField();
+        jTextFieldNomor = new javax.swing.JTextField();
+        jTextFieldEmail = new javax.swing.JTextField();
+        jLabelMetodePembayaran = new javax.swing.JLabel();
+        jRadioButtonTransferBank = new javax.swing.JRadioButton();
+        jRadioButtonVirtualAccount = new javax.swing.JRadioButton();
+        jRadioButtonEmoney = new javax.swing.JRadioButton();
+        jLabelTotal1 = new javax.swing.JLabel();
+        jLabelTotalTiket1 = new javax.swing.JLabel();
+
+        jLabelTotal.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelTotal.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelTotal.setText("Total:");
+        jLabelTotal.setToolTipText("");
+
+        jLabelTotalTiket.setText("Total");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButtonLogin.setText("Submit");
-        jButtonLogin.addActionListener(new java.awt.event.ActionListener() {
+        jButtonSubmit.setText("Submit");
+        jButtonSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonLoginActionPerformed(evt);
+                jButtonSubmitActionPerformed(evt);
             }
         });
 
-        jLabelLogin1.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabelLogin1.setText("FORM CHECKOUT");
-        jLabelLogin1.setToolTipText("");
+        jLabelFormCheckout.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelFormCheckout.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabelFormCheckout.setText("FORM CHECKOUT");
+        jLabelFormCheckout.setToolTipText("");
 
-        jLabelLogin2.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin2.setText("Alamat Email:");
-        jLabelLogin2.setToolTipText("");
+        jLabelEmail.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelEmail.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelEmail.setText("Alamat Email:");
+        jLabelEmail.setToolTipText("");
 
-        jLabelLogin3.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin3.setText("Nomor Telepon:");
-        jLabelLogin3.setToolTipText("");
+        jLabelNomor.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelNomor.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelNomor.setText("Nomor Telepon:");
+        jLabelNomor.setToolTipText("");
 
-        jLabelLogin4.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin4.setText("Nama Lengkap:");
-        jLabelLogin4.setToolTipText("");
+        jLabelNama.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelNama.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelNama.setText("Nama Lengkap:");
+        jLabelNama.setToolTipText("");
 
-        jLabelLogin9.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin9.setText("Metode Pembayaran:");
-        jLabelLogin9.setToolTipText("");
+        jLabelMetodePembayaran.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelMetodePembayaran.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelMetodePembayaran.setText("Metode Pembayaran:");
+        jLabelMetodePembayaran.setToolTipText("");
 
-        jRadioButton1.setText("Transfer Bank");
-        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButtonTransferBank.setText("Transfer Bank");
+        jRadioButtonTransferBank.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton1ActionPerformed(evt);
+                jRadioButtonTransferBankActionPerformed(evt);
             }
         });
 
-        jRadioButton2.setText("Virtual Account");
-        jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButtonVirtualAccount.setText("Virtual Account");
+        jRadioButtonVirtualAccount.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton2ActionPerformed(evt);
+                jRadioButtonVirtualAccountActionPerformed(evt);
             }
         });
 
-        jRadioButton3.setText("E-Money");
-        jRadioButton3.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButtonEmoney.setText("E-Money");
+        jRadioButtonEmoney.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton3ActionPerformed(evt);
+                jRadioButtonEmoneyActionPerformed(evt);
             }
         });
+
+        jLabelTotal1.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelTotal1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelTotal1.setText("Total:");
+        jLabelTotal1.setToolTipText("");
+
+        jLabelTotalTiket1.setText("Total");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -104,85 +122,96 @@ public class Checkout extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jLabelLogin4)
+                                .addComponent(jLabelNama)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jTextFieldPass1))
+                                .addComponent(jTextFieldNama))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jLabelLogin3)
+                                .addComponent(jLabelNomor)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextFieldPass2))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jLabelLogin2)
-                                .addGap(18, 18, 18)
-                                .addComponent(jTextFieldPass3))
+                                .addComponent(jTextFieldNomor))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabelLogin9)
+                                    .addComponent(jLabelMetodePembayaran)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jRadioButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jRadioButtonTransferBank, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(32, 32, 32)
-                                        .addComponent(jRadioButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jRadioButtonVirtualAccount, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(29, 29, 29)
-                                        .addComponent(jRadioButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(0, 30, Short.MAX_VALUE)))
+                                        .addComponent(jRadioButtonEmoney, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(0, 30, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabelEmail)
+                                    .addComponent(jLabelTotal1))
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabelTotalTiket1, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(0, 0, Short.MAX_VALUE))
+                                    .addComponent(jTextFieldEmail))))
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jButtonLogin)
-                                .addContainerGap())
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jLabelLogin1)
-                                .addGap(106, 106, 106))))))
+                        .addComponent(jLabelFormCheckout)
+                        .addGap(106, 106, 106))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButtonSubmit)
+                .addGap(20, 20, 20))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabelLogin1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelFormCheckout, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(8, 8, 8)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabelLogin4, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextFieldPass1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabelNama, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextFieldNama, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabelNomor, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextFieldNomor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabelEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextFieldEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(34, 34, 34))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabelTotal1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabelTotalTiket1)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabelMetodePembayaran, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabelLogin3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextFieldPass2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabelLogin2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextFieldPass3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabelLogin9, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton1)
-                    .addComponent(jRadioButton2)
-                    .addComponent(jRadioButton3))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButtonLogin)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jRadioButtonVirtualAccount)
+                    .addComponent(jRadioButtonEmoney)
+                    .addComponent(jRadioButtonTransferBank))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
+                .addComponent(jButtonSubmit)
+                .addGap(16, 16, 16))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButtonLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLoginActionPerformed
+    private void jButtonSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSubmitActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonLoginActionPerformed
+    }//GEN-LAST:event_jButtonSubmitActionPerformed
 
-    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
+    private void jRadioButtonTransferBankActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonTransferBankActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton1ActionPerformed
+    }//GEN-LAST:event_jRadioButtonTransferBankActionPerformed
 
-    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
+    private void jRadioButtonVirtualAccountActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonVirtualAccountActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton2ActionPerformed
+    }//GEN-LAST:event_jRadioButtonVirtualAccountActionPerformed
 
-    private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
+    private void jRadioButtonEmoneyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonEmoneyActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton3ActionPerformed
+    }//GEN-LAST:event_jRadioButtonEmoneyActionPerformed
 
     /**
      * @param args the command line arguments
@@ -220,17 +249,21 @@ public class Checkout extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButtonLogin;
-    private javax.swing.JLabel jLabelLogin1;
-    private javax.swing.JLabel jLabelLogin2;
-    private javax.swing.JLabel jLabelLogin3;
-    private javax.swing.JLabel jLabelLogin4;
-    private javax.swing.JLabel jLabelLogin9;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JTextField jTextFieldPass1;
-    private javax.swing.JTextField jTextFieldPass2;
-    private javax.swing.JTextField jTextFieldPass3;
+    private javax.swing.JButton jButtonSubmit;
+    private javax.swing.JLabel jLabelEmail;
+    private javax.swing.JLabel jLabelFormCheckout;
+    private javax.swing.JLabel jLabelMetodePembayaran;
+    private javax.swing.JLabel jLabelNama;
+    private javax.swing.JLabel jLabelNomor;
+    private javax.swing.JLabel jLabelTotal;
+    private javax.swing.JLabel jLabelTotal1;
+    private javax.swing.JLabel jLabelTotalTiket;
+    private javax.swing.JLabel jLabelTotalTiket1;
+    private javax.swing.JRadioButton jRadioButtonEmoney;
+    private javax.swing.JRadioButton jRadioButtonTransferBank;
+    private javax.swing.JRadioButton jRadioButtonVirtualAccount;
+    private javax.swing.JTextField jTextFieldEmail;
+    private javax.swing.JTextField jTextFieldNama;
+    private javax.swing.JTextField jTextFieldNomor;
     // End of variables declaration//GEN-END:variables
 }

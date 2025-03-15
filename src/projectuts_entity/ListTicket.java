@@ -26,126 +26,144 @@ public class ListTicket extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButtonLogin = new javax.swing.JButton();
-        jLabelLogin1 = new javax.swing.JLabel();
-        jLabelLogin6 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
-        jLabelLogin7 = new javax.swing.JLabel();
-        jLabelLogin8 = new javax.swing.JLabel();
-        jLabelLogin9 = new javax.swing.JLabel();
-        jTextFieldPass7 = new javax.swing.JTextField();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jLabel1 = new javax.swing.JLabel();
+        jButtonNext = new javax.swing.JButton();
+        jLabelListTicket = new javax.swing.JLabel();
+        jLabelJenisKursi = new javax.swing.JLabel();
+        jComboBoxJenisKursi = new javax.swing.JComboBox<>();
+        jLabelKonser = new javax.swing.JLabel();
+        jLabelHarga = new javax.swing.JLabel();
+        jLabelJumlah = new javax.swing.JLabel();
+        jTextFieldJumlah = new javax.swing.JTextField();
+        jComboBoxKonser = new javax.swing.JComboBox<>();
+        jLabelHargaTiket = new javax.swing.JLabel();
+        jButtonDetailTiket = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButtonLogin.setText("Next");
-        jButtonLogin.addActionListener(new java.awt.event.ActionListener() {
+        jButtonNext.setText("Next");
+        jButtonNext.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonLoginActionPerformed(evt);
+                jButtonNextActionPerformed(evt);
             }
         });
 
-        jLabelLogin1.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabelLogin1.setText("LIST TICKET");
-        jLabelLogin1.setToolTipText("");
+        jLabelListTicket.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelListTicket.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabelListTicket.setText("LIST TICKET");
+        jLabelListTicket.setToolTipText("");
 
-        jLabelLogin6.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin6.setText("Jenis Kursi:");
-        jLabelLogin6.setToolTipText("");
+        jLabelJenisKursi.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelJenisKursi.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelJenisKursi.setText("Jenis Kursi:");
+        jLabelJenisKursi.setToolTipText("");
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jLabelKonser.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelKonser.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelKonser.setText("Pilih Konser:");
+        jLabelKonser.setToolTipText("");
 
-        jLabelLogin7.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin7.setText("Pilih Konser:");
-        jLabelLogin7.setToolTipText("");
+        jLabelHarga.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelHarga.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelHarga.setText("Harga:");
+        jLabelHarga.setToolTipText("");
 
-        jLabelLogin8.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin8.setText("Harga:");
-        jLabelLogin8.setToolTipText("");
+        jLabelJumlah.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelJumlah.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelJumlah.setText("Jumlah:");
+        jLabelJumlah.setToolTipText("");
 
-        jLabelLogin9.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin9.setText("Jumlah:");
-        jLabelLogin9.setToolTipText("");
+        jComboBoxKonser.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBoxKonserActionPerformed(evt);
+            }
+        });
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jLabelHargaTiket.setText("Harga");
 
-        jLabel1.setText("Harga");
+        jButtonDetailTiket.setText("Detail Tiket");
+        jButtonDetailTiket.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonDetailTiketActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButtonLogin)
-                .addGap(18, 18, 18))
-            .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 130, Short.MAX_VALUE)
-                        .addComponent(jLabelLogin1)
-                        .addGap(135, 135, 135))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabelKonser)
+                            .addComponent(jLabelJenisKursi)
+                            .addComponent(jLabelJumlah))
+                        .addGap(30, 30, 30)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jComboBoxJenisKursi, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBoxKonser, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(jTextFieldJumlah, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabelHargaTiket, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 127, Short.MAX_VALUE))))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                        .addComponent(jLabelHarga)
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabelLogin6)
-                                .addGap(37, 37, 37)
-                                .addComponent(jComboBox2, 0, 127, Short.MAX_VALUE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabelLogin7)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabelLogin8)
-                                    .addComponent(jLabelLogin9))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jTextFieldPass7, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addGap(0, 130, Short.MAX_VALUE)
+                        .addComponent(jLabelListTicket)
+                        .addGap(117, 117, 117))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jButtonDetailTiket)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButtonNext)))
+                .addGap(18, 18, 18))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabelLogin1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabelLogin6, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabelLogin7, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addComponent(jLabelListTicket, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(33, 33, 33)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabelKonser, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBoxKonser, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabelLogin8, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addComponent(jLabelJenisKursi, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBoxJenisKursi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabelHargaTiket))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(12, 12, 12)
+                        .addComponent(jLabelHarga, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(9, 9, 9)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jTextFieldJumlah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabelJumlah, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextFieldPass7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabelLogin9, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(43, 43, 43)
-                .addComponent(jButtonLogin)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jButtonNext)
+                    .addComponent(jButtonDetailTiket))
+                .addGap(14, 14, 14))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButtonLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLoginActionPerformed
+    private void jButtonNextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNextActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonLoginActionPerformed
+    }//GEN-LAST:event_jButtonNextActionPerformed
+
+    private void jComboBoxKonserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxKonserActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBoxKonserActionPerformed
+
+    private void jButtonDetailTiketActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDetailTiketActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonDetailTiketActionPerformed
 
     /**
      * @param args the command line arguments
@@ -184,15 +202,16 @@ public class ListTicket extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButtonLogin;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabelLogin1;
-    private javax.swing.JLabel jLabelLogin6;
-    private javax.swing.JLabel jLabelLogin7;
-    private javax.swing.JLabel jLabelLogin8;
-    private javax.swing.JLabel jLabelLogin9;
-    private javax.swing.JTextField jTextFieldPass7;
+    private javax.swing.JButton jButtonDetailTiket;
+    private javax.swing.JButton jButtonNext;
+    private javax.swing.JComboBox<String> jComboBoxJenisKursi;
+    private javax.swing.JComboBox<String> jComboBoxKonser;
+    private javax.swing.JLabel jLabelHarga;
+    private javax.swing.JLabel jLabelHargaTiket;
+    private javax.swing.JLabel jLabelJenisKursi;
+    private javax.swing.JLabel jLabelJumlah;
+    private javax.swing.JLabel jLabelKonser;
+    private javax.swing.JLabel jLabelListTicket;
+    private javax.swing.JTextField jTextFieldJumlah;
     // End of variables declaration//GEN-END:variables
 }

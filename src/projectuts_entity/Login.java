@@ -26,20 +26,20 @@ public class Login extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabelLogin = new javax.swing.JLabel();
+        jLabelWelcome = new javax.swing.JLabel();
+        jTextFieldPassword = new javax.swing.JTextField();
         jTextFieldUsername = new javax.swing.JTextField();
-        jTextFieldPass = new javax.swing.JTextField();
         jButtonLogin = new javax.swing.JButton();
-        jLabelLogin1 = new javax.swing.JLabel();
-        jLabelLogin2 = new javax.swing.JLabel();
-        jLabelLogin3 = new javax.swing.JLabel();
+        jLabelLogin = new javax.swing.JLabel();
+        jLabelPassword = new javax.swing.JLabel();
+        jLabelUsername = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabelLogin.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin.setFont(new java.awt.Font("Segoe Script", 1, 24)); // NOI18N
-        jLabelLogin.setText("Welcome!!");
-        jLabelLogin.setToolTipText("");
+        jLabelWelcome.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelWelcome.setFont(new java.awt.Font("Segoe Script", 1, 24)); // NOI18N
+        jLabelWelcome.setText("Welcome!!");
+        jLabelWelcome.setToolTipText("");
 
         jButtonLogin.setText("OK");
         jButtonLogin.addActionListener(new java.awt.event.ActionListener() {
@@ -48,20 +48,20 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
-        jLabelLogin1.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabelLogin1.setText("LOGIN AKUN");
-        jLabelLogin1.setToolTipText("");
+        jLabelLogin.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelLogin.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabelLogin.setText("LOGIN AKUN");
+        jLabelLogin.setToolTipText("");
 
-        jLabelLogin2.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin2.setText("Password:");
-        jLabelLogin2.setToolTipText("");
+        jLabelPassword.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelPassword.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelPassword.setText("Password:");
+        jLabelPassword.setToolTipText("");
 
-        jLabelLogin3.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin3.setText("Username:");
-        jLabelLogin3.setToolTipText("");
+        jLabelUsername.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelUsername.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelUsername.setText("Username:");
+        jLabelUsername.setToolTipText("");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -70,15 +70,15 @@ public class Login extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(76, 76, 76)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabelLogin2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabelLogin3, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabelPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabelUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabelWelcome)
                     .addComponent(jLabelLogin)
-                    .addComponent(jLabelLogin1)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jTextFieldUsername)
-                        .addComponent(jTextFieldPass, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jTextFieldPassword)
+                        .addComponent(jTextFieldUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(82, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -89,19 +89,19 @@ public class Login extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(16, 16, 16)
-                .addComponent(jLabelLogin1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(44, 44, 44)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextFieldPass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabelLogin3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextFieldUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabelUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(37, 37, 37)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextFieldUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabelLogin2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextFieldPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabelPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
                 .addComponent(jButtonLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jLabelLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelWelcome, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(13, 13, 13))
         );
 
@@ -150,10 +150,10 @@ public class Login extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonLogin;
     private javax.swing.JLabel jLabelLogin;
-    private javax.swing.JLabel jLabelLogin1;
-    private javax.swing.JLabel jLabelLogin2;
-    private javax.swing.JLabel jLabelLogin3;
-    private javax.swing.JTextField jTextFieldPass;
+    private javax.swing.JLabel jLabelPassword;
+    private javax.swing.JLabel jLabelUsername;
+    private javax.swing.JLabel jLabelWelcome;
+    private javax.swing.JTextField jTextFieldPassword;
     private javax.swing.JTextField jTextFieldUsername;
     // End of variables declaration//GEN-END:variables
 }

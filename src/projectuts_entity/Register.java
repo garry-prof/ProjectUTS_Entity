@@ -26,55 +26,55 @@ public class Register extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabelLogin3 = new javax.swing.JLabel();
-        jLabelLogin4 = new javax.swing.JLabel();
-        jTextFieldPass1 = new javax.swing.JTextField();
-        jButtonLogin = new javax.swing.JButton();
-        jTextFieldPass2 = new javax.swing.JTextField();
-        jLabelLogin1 = new javax.swing.JLabel();
-        jTextFieldPass3 = new javax.swing.JTextField();
-        jLabelLogin2 = new javax.swing.JLabel();
-        jLabelLogin5 = new javax.swing.JLabel();
-        jTextFieldPass4 = new javax.swing.JTextField();
-        jLabelLogin6 = new javax.swing.JLabel();
-        jTextFieldPass5 = new javax.swing.JTextField();
+        jLabelNomorTelepon = new javax.swing.JLabel();
+        jLabelUsername = new javax.swing.JLabel();
+        jTextFieldUsername = new javax.swing.JTextField();
+        jButtonSubmit = new javax.swing.JButton();
+        jTextFieldNomorTelepon = new javax.swing.JTextField();
+        jLabelDaftar = new javax.swing.JLabel();
+        jTextFieldEmail = new javax.swing.JTextField();
+        jLabelEmail = new javax.swing.JLabel();
+        jLabelPassword = new javax.swing.JLabel();
+        jTextFieldPassword = new javax.swing.JTextField();
+        jLabelNama = new javax.swing.JLabel();
+        jTextFieldNama = new javax.swing.JTextField();
 
-        jLabelLogin3.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin3.setText("Nomor Telepon:");
-        jLabelLogin3.setToolTipText("");
+        jLabelNomorTelepon.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelNomorTelepon.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelNomorTelepon.setText("Nomor Telepon:");
+        jLabelNomorTelepon.setToolTipText("");
 
-        jLabelLogin4.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin4.setText("Username:");
-        jLabelLogin4.setToolTipText("");
+        jLabelUsername.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelUsername.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelUsername.setText("Username:");
+        jLabelUsername.setToolTipText("");
 
-        jButtonLogin.setText("Submit");
-        jButtonLogin.addActionListener(new java.awt.event.ActionListener() {
+        jButtonSubmit.setText("Submit");
+        jButtonSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonLoginActionPerformed(evt);
+                jButtonSubmitActionPerformed(evt);
             }
         });
 
-        jLabelLogin1.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabelLogin1.setText("DAFTAR AKUN");
-        jLabelLogin1.setToolTipText("");
+        jLabelDaftar.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelDaftar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabelDaftar.setText("DAFTAR AKUN");
+        jLabelDaftar.setToolTipText("");
 
-        jLabelLogin2.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin2.setText("Alamat Email:");
-        jLabelLogin2.setToolTipText("");
+        jLabelEmail.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelEmail.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelEmail.setText("Alamat Email:");
+        jLabelEmail.setToolTipText("");
 
-        jLabelLogin5.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin5.setText("Password:");
-        jLabelLogin5.setToolTipText("");
+        jLabelPassword.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelPassword.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelPassword.setText("Password:");
+        jLabelPassword.setToolTipText("");
 
-        jLabelLogin6.setBackground(new java.awt.Color(255, 102, 102));
-        jLabelLogin6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelLogin6.setText("Nama:");
-        jLabelLogin6.setToolTipText("");
+        jLabelNama.setBackground(new java.awt.Color(255, 102, 102));
+        jLabelNama.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabelNama.setText("Nama:");
+        jLabelNama.setToolTipText("");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -87,84 +87,84 @@ public class Register extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabelLogin3)
-                                    .addComponent(jLabelLogin4))
+                                    .addComponent(jLabelNomorTelepon)
+                                    .addComponent(jLabelUsername))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jTextFieldPass1, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextFieldPass2, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextFieldPass5, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(jTextFieldUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jTextFieldNomorTelepon, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jTextFieldNama, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                 .addGroup(layout.createSequentialGroup()
-                                    .addComponent(jLabelLogin5)
+                                    .addComponent(jLabelPassword)
                                     .addGap(39, 39, 39)
-                                    .addComponent(jTextFieldPass4))
+                                    .addComponent(jTextFieldPassword))
                                 .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                    .addComponent(jLabelLogin2)
+                                    .addComponent(jLabelEmail)
                                     .addGap(18, 18, 18)
-                                    .addComponent(jTextFieldPass3, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(jTextFieldEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addContainerGap(69, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabelLogin6)
+                        .addComponent(jLabelNama)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jLabelLogin1)
+                                .addComponent(jLabelDaftar)
                                 .addGap(134, 134, 134))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jButtonLogin)
+                                .addComponent(jButtonSubmit)
                                 .addGap(14, 14, 14))))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(14, 14, 14)
-                .addComponent(jLabelLogin1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelDaftar, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextFieldPass1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabelLogin4, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextFieldUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabelUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabelLogin6, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextFieldPass5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabelNama, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldNama, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabelLogin3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextFieldPass2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabelNomorTelepon, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldNomorTelepon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabelLogin2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextFieldPass3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabelEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabelLogin5, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextFieldPass4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabelPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
-                .addComponent(jButtonLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButtonSubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(14, 14, 14))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButtonLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLoginActionPerformed
+    private void jButtonSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSubmitActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonLoginActionPerformed
+    }//GEN-LAST:event_jButtonSubmitActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButtonLogin;
-    private javax.swing.JLabel jLabelLogin1;
-    private javax.swing.JLabel jLabelLogin2;
-    private javax.swing.JLabel jLabelLogin3;
-    private javax.swing.JLabel jLabelLogin4;
-    private javax.swing.JLabel jLabelLogin5;
-    private javax.swing.JLabel jLabelLogin6;
-    private javax.swing.JTextField jTextFieldPass1;
-    private javax.swing.JTextField jTextFieldPass2;
-    private javax.swing.JTextField jTextFieldPass3;
-    private javax.swing.JTextField jTextFieldPass4;
-    private javax.swing.JTextField jTextFieldPass5;
+    private javax.swing.JButton jButtonSubmit;
+    private javax.swing.JLabel jLabelDaftar;
+    private javax.swing.JLabel jLabelEmail;
+    private javax.swing.JLabel jLabelNama;
+    private javax.swing.JLabel jLabelNomorTelepon;
+    private javax.swing.JLabel jLabelPassword;
+    private javax.swing.JLabel jLabelUsername;
+    private javax.swing.JTextField jTextFieldEmail;
+    private javax.swing.JTextField jTextFieldNama;
+    private javax.swing.JTextField jTextFieldNomorTelepon;
+    private javax.swing.JTextField jTextFieldPassword;
+    private javax.swing.JTextField jTextFieldUsername;
     // End of variables declaration//GEN-END:variables
 }
