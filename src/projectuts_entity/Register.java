@@ -150,6 +150,7 @@ public class Register extends javax.swing.JPanel {
 
     private void jButtonSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSubmitActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_jButtonSubmitActionPerformed
 
 
